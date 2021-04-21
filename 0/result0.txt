@@ -1,0 +1,621 @@
+Check file:///Users/kt3k/oss/deno-snippets/is_cached.ts
+Checking https://deno.land/x/dext@0.10.5/cli.ts
+Error: https://deno.land/x/dext@0.10.5/cli.ts is not cached
+deno-snippets $ deno run -A list_deps.ts https://deno.land/x/dext@0.10.5/cli.ts | xargs -L1 deno run -A is_cached.ts
+Checking https://cdn.dreg.dev/package/@rollup/pluginutils@4.0.0
+Error: https://cdn.dreg.dev/package/@rollup/pluginutils@4.0.0 is not cached
+Checking https://cdn.dreg.dev/package/@rollup/pluginutils@4.0.0/dist/es/index.js
+ok. https://cdn.dreg.dev/package/@rollup/pluginutils@4.0.0/dist/es/index.js is cached
+Checking https://cdn.dreg.dev/package/@rollup/pluginutils@4.0.0/types/index.d.ts
+Error: https://cdn.dreg.dev/package/@rollup/pluginutils@4.0.0/types/index.d.ts is not cached
+Checking https://cdn.dreg.dev/package/@types/estree@0.0.45
+Error: https://cdn.dreg.dev/package/@types/estree@0.0.45 is not cached
+Checking https://cdn.dreg.dev/package/@types/estree@0.0.45/index.d.ts
+ok. https://cdn.dreg.dev/package/@types/estree@0.0.45/index.d.ts is cached
+Checking https://cdn.dreg.dev/package/@types/picomatch@2.2.1
+ok. https://cdn.dreg.dev/package/@types/picomatch@2.2.1 is cached
+Checking https://cdn.dreg.dev/package/@types/picomatch@2.2.1/constants.d.ts
+ok. https://cdn.dreg.dev/package/@types/picomatch@2.2.1/constants.d.ts is cached
+Checking https://cdn.dreg.dev/package/@types/picomatch@2.2.1/index.d.ts
+ok. https://cdn.dreg.dev/package/@types/picomatch@2.2.1/index.d.ts is cached
+Checking https://cdn.dreg.dev/package/@types/picomatch@2.2.1/parse.d.ts
+ok. https://cdn.dreg.dev/package/@types/picomatch@2.2.1/parse.d.ts is cached
+Checking https://cdn.dreg.dev/package/picomatch@2.2.2
+ok. https://cdn.dreg.dev/package/picomatch@2.2.2 is cached
+Checking https://cdn.dreg.dev/package/picomatch@2.2.2/_/9ee23622.js
+ok. https://cdn.dreg.dev/package/picomatch@2.2.2/_/9ee23622.js is cached
+Checking https://cdn.dreg.dev/polyfill/node/path.ts
+ok. https://cdn.dreg.dev/polyfill/node/path.ts is cached
+Checking https://cdn.dreg.dev/polyfill/node/process.ts
+ok. https://cdn.dreg.dev/polyfill/node/process.ts is cached
+Checking https://deno.land/std@0.66.0/_util/assert.ts
+ok. https://deno.land/std@0.66.0/_util/assert.ts is cached
+Checking https://deno.land/std@0.66.0/node/_utils.ts
+ok. https://deno.land/std@0.66.0/node/_utils.ts is cached
+Checking https://deno.land/std@0.66.0/node/process.ts
+ok. https://deno.land/std@0.66.0/node/process.ts is cached
+Checking https://deno.land/std@0.66.0/path/_constants.ts
+ok. https://deno.land/std@0.66.0/path/_constants.ts is cached
+Checking https://deno.land/std@0.66.0/path/_interface.ts
+ok. https://deno.land/std@0.66.0/path/_interface.ts is cached
+Checking https://deno.land/std@0.66.0/path/_util.ts
+ok. https://deno.land/std@0.66.0/path/_util.ts is cached
+Checking https://deno.land/std@0.66.0/path/common.ts
+ok. https://deno.land/std@0.66.0/path/common.ts is cached
+Checking https://deno.land/std@0.66.0/path/glob.ts
+ok. https://deno.land/std@0.66.0/path/glob.ts is cached
+Checking https://deno.land/std@0.66.0/path/mod.ts
+ok. https://deno.land/std@0.66.0/path/mod.ts is cached
+Checking https://deno.land/std@0.66.0/path/posix.ts
+ok. https://deno.land/std@0.66.0/path/posix.ts is cached
+Checking https://deno.land/std@0.66.0/path/separator.ts
+ok. https://deno.land/std@0.66.0/path/separator.ts is cached
+Checking https://deno.land/std@0.66.0/path/win32.ts
+ok. https://deno.land/std@0.66.0/path/win32.ts is cached
+Checking https://deno.land/std@0.69.0/_util/assert.ts
+ok. https://deno.land/std@0.69.0/_util/assert.ts is cached
+Checking https://deno.land/std@0.69.0/async/deferred.ts
+ok. https://deno.land/std@0.69.0/async/deferred.ts is cached
+Checking https://deno.land/std@0.69.0/async/delay.ts
+ok. https://deno.land/std@0.69.0/async/delay.ts is cached
+Checking https://deno.land/std@0.69.0/async/mod.ts
+ok. https://deno.land/std@0.69.0/async/mod.ts is cached
+Checking https://deno.land/std@0.69.0/async/mux_async_iterator.ts
+ok. https://deno.land/std@0.69.0/async/mux_async_iterator.ts is cached
+Checking https://deno.land/std@0.69.0/async/pool.ts
+ok. https://deno.land/std@0.69.0/async/pool.ts is cached
+Checking https://deno.land/std@0.69.0/bytes/mod.ts
+ok. https://deno.land/std@0.69.0/bytes/mod.ts is cached
+Checking https://deno.land/std@0.69.0/datetime/formatter.ts
+ok. https://deno.land/std@0.69.0/datetime/formatter.ts is cached
+Checking https://deno.land/std@0.69.0/datetime/mod.ts
+ok. https://deno.land/std@0.69.0/datetime/mod.ts is cached
+Checking https://deno.land/std@0.69.0/datetime/tokenizer.ts
+ok. https://deno.land/std@0.69.0/datetime/tokenizer.ts is cached
+Checking https://deno.land/std@0.69.0/encoding/base64.ts
+ok. https://deno.land/std@0.69.0/encoding/base64.ts is cached
+Checking https://deno.land/std@0.69.0/encoding/hex.ts
+ok. https://deno.land/std@0.69.0/encoding/hex.ts is cached
+Checking https://deno.land/std@0.69.0/encoding/utf8.ts
+ok. https://deno.land/std@0.69.0/encoding/utf8.ts is cached
+Checking https://deno.land/std@0.69.0/fs/_util.ts
+ok. https://deno.land/std@0.69.0/fs/_util.ts is cached
+Checking https://deno.land/std@0.69.0/fs/copy.ts
+Error: https://deno.land/std@0.69.0/fs/copy.ts is not cached
+Checking https://deno.land/std@0.69.0/fs/empty_dir.ts
+ok. https://deno.land/std@0.69.0/fs/empty_dir.ts is cached
+Checking https://deno.land/std@0.69.0/fs/ensure_dir.ts
+ok. https://deno.land/std@0.69.0/fs/ensure_dir.ts is cached
+Checking https://deno.land/std@0.69.0/fs/ensure_file.ts
+ok. https://deno.land/std@0.69.0/fs/ensure_file.ts is cached
+Checking https://deno.land/std@0.69.0/fs/ensure_link.ts
+ok. https://deno.land/std@0.69.0/fs/ensure_link.ts is cached
+Checking https://deno.land/std@0.69.0/fs/ensure_symlink.ts
+ok. https://deno.land/std@0.69.0/fs/ensure_symlink.ts is cached
+Checking https://deno.land/std@0.69.0/fs/eol.ts
+ok. https://deno.land/std@0.69.0/fs/eol.ts is cached
+Checking https://deno.land/std@0.69.0/fs/exists.ts
+ok. https://deno.land/std@0.69.0/fs/exists.ts is cached
+Checking https://deno.land/std@0.69.0/fs/expand_glob.ts
+ok. https://deno.land/std@0.69.0/fs/expand_glob.ts is cached
+Checking https://deno.land/std@0.69.0/fs/mod.ts
+Error: https://deno.land/std@0.69.0/fs/mod.ts is not cached
+Checking https://deno.land/std@0.69.0/fs/move.ts
+ok. https://deno.land/std@0.69.0/fs/move.ts is cached
+Checking https://deno.land/std@0.69.0/fs/walk.ts
+ok. https://deno.land/std@0.69.0/fs/walk.ts is cached
+Checking https://deno.land/std@0.69.0/hash/_wasm/hash.ts
+ok. https://deno.land/std@0.69.0/hash/_wasm/hash.ts is cached
+Checking https://deno.land/std@0.69.0/hash/_wasm/wasm.js
+ok. https://deno.land/std@0.69.0/hash/_wasm/wasm.js is cached
+Checking https://deno.land/std@0.69.0/hash/hasher.ts
+ok. https://deno.land/std@0.69.0/hash/hasher.ts is cached
+Checking https://deno.land/std@0.69.0/hash/mod.ts
+ok. https://deno.land/std@0.69.0/hash/mod.ts is cached
+Checking https://deno.land/std@0.69.0/http/_io.ts
+ok. https://deno.land/std@0.69.0/http/_io.ts is cached
+Checking https://deno.land/std@0.69.0/http/cookie.ts
+ok. https://deno.land/std@0.69.0/http/cookie.ts is cached
+Checking https://deno.land/std@0.69.0/http/http_status.ts
+ok. https://deno.land/std@0.69.0/http/http_status.ts is cached
+Checking https://deno.land/std@0.69.0/http/mod.ts
+ok. https://deno.land/std@0.69.0/http/mod.ts is cached
+Checking https://deno.land/std@0.69.0/http/server.ts
+ok. https://deno.land/std@0.69.0/http/server.ts is cached
+Checking https://deno.land/std@0.69.0/io/bufio.ts
+ok. https://deno.land/std@0.69.0/io/bufio.ts is cached
+Checking https://deno.land/std@0.69.0/path/_constants.ts
+ok. https://deno.land/std@0.69.0/path/_constants.ts is cached
+Checking https://deno.land/std@0.69.0/path/_interface.ts
+ok. https://deno.land/std@0.69.0/path/_interface.ts is cached
+Checking https://deno.land/std@0.69.0/path/_util.ts
+ok. https://deno.land/std@0.69.0/path/_util.ts is cached
+Checking https://deno.land/std@0.69.0/path/common.ts
+ok. https://deno.land/std@0.69.0/path/common.ts is cached
+Checking https://deno.land/std@0.69.0/path/glob.ts
+ok. https://deno.land/std@0.69.0/path/glob.ts is cached
+Checking https://deno.land/std@0.69.0/path/mod.ts
+ok. https://deno.land/std@0.69.0/path/mod.ts is cached
+Checking https://deno.land/std@0.69.0/path/posix.ts
+ok. https://deno.land/std@0.69.0/path/posix.ts is cached
+Checking https://deno.land/std@0.69.0/path/separator.ts
+ok. https://deno.land/std@0.69.0/path/separator.ts is cached
+Checking https://deno.land/std@0.69.0/path/win32.ts
+ok. https://deno.land/std@0.69.0/path/win32.ts is cached
+Checking https://deno.land/std@0.69.0/textproto/mod.ts
+ok. https://deno.land/std@0.69.0/textproto/mod.ts is cached
+Checking https://deno.land/std@0.84.0/_util/assert.ts
+ok. https://deno.land/std@0.84.0/_util/assert.ts is cached
+Checking https://deno.land/std@0.84.0/_util/has_own_property.ts
+ok. https://deno.land/std@0.84.0/_util/has_own_property.ts is cached
+Checking https://deno.land/std@0.84.0/_util/os.ts
+ok. https://deno.land/std@0.84.0/_util/os.ts is cached
+Checking https://deno.land/std@0.84.0/async/deferred.ts
+ok. https://deno.land/std@0.84.0/async/deferred.ts is cached
+Checking https://deno.land/std@0.84.0/async/delay.ts
+ok. https://deno.land/std@0.84.0/async/delay.ts is cached
+Checking https://deno.land/std@0.84.0/async/mod.ts
+ok. https://deno.land/std@0.84.0/async/mod.ts is cached
+Checking https://deno.land/std@0.84.0/async/mux_async_iterator.ts
+ok. https://deno.land/std@0.84.0/async/mux_async_iterator.ts is cached
+Checking https://deno.land/std@0.84.0/async/pool.ts
+ok. https://deno.land/std@0.84.0/async/pool.ts is cached
+Checking https://deno.land/std@0.84.0/bytes/mod.ts
+ok. https://deno.land/std@0.84.0/bytes/mod.ts is cached
+Checking https://deno.land/std@0.84.0/encoding/utf8.ts
+ok. https://deno.land/std@0.84.0/encoding/utf8.ts is cached
+Checking https://deno.land/std@0.84.0/fmt/colors.ts
+ok. https://deno.land/std@0.84.0/fmt/colors.ts is cached
+Checking https://deno.land/std@0.84.0/hash/sha1.ts
+ok. https://deno.land/std@0.84.0/hash/sha1.ts is cached
+Checking https://deno.land/std@0.84.0/hash/sha256.ts
+ok. https://deno.land/std@0.84.0/hash/sha256.ts is cached
+Checking https://deno.land/std@0.84.0/http/_io.ts
+ok. https://deno.land/std@0.84.0/http/_io.ts is cached
+Checking https://deno.land/std@0.84.0/http/http_status.ts
+ok. https://deno.land/std@0.84.0/http/http_status.ts is cached
+Checking https://deno.land/std@0.84.0/http/server.ts
+ok. https://deno.land/std@0.84.0/http/server.ts is cached
+Checking https://deno.land/std@0.84.0/io/bufio.ts
+ok. https://deno.land/std@0.84.0/io/bufio.ts is cached
+Checking https://deno.land/std@0.84.0/io/ioutil.ts
+ok. https://deno.land/std@0.84.0/io/ioutil.ts is cached
+Checking https://deno.land/std@0.84.0/path/_constants.ts
+ok. https://deno.land/std@0.84.0/path/_constants.ts is cached
+Checking https://deno.land/std@0.84.0/path/_interface.ts
+ok. https://deno.land/std@0.84.0/path/_interface.ts is cached
+Checking https://deno.land/std@0.84.0/path/_util.ts
+ok. https://deno.land/std@0.84.0/path/_util.ts is cached
+Checking https://deno.land/std@0.84.0/path/common.ts
+ok. https://deno.land/std@0.84.0/path/common.ts is cached
+Checking https://deno.land/std@0.84.0/path/glob.ts
+ok. https://deno.land/std@0.84.0/path/glob.ts is cached
+Checking https://deno.land/std@0.84.0/path/mod.ts
+ok. https://deno.land/std@0.84.0/path/mod.ts is cached
+Checking https://deno.land/std@0.84.0/path/posix.ts
+ok. https://deno.land/std@0.84.0/path/posix.ts is cached
+Checking https://deno.land/std@0.84.0/path/separator.ts
+ok. https://deno.land/std@0.84.0/path/separator.ts is cached
+Checking https://deno.land/std@0.84.0/path/win32.ts
+ok. https://deno.land/std@0.84.0/path/win32.ts is cached
+Checking https://deno.land/std@0.84.0/testing/_diff.ts
+ok. https://deno.land/std@0.84.0/testing/_diff.ts is cached
+Checking https://deno.land/std@0.84.0/testing/asserts.ts
+^[[Aok. https://deno.land/std@0.84.0/testing/asserts.ts is cached
+Checking https://deno.land/std@0.84.0/textproto/mod.ts
+ok. https://deno.land/std@0.84.0/textproto/mod.ts is cached
+Checking https://deno.land/std@0.84.0/ws/mod.ts
+ok. https://deno.land/std@0.84.0/ws/mod.ts is cached
+Checking https://deno.land/std@0.86.0/fmt/colors.ts
+ok. https://deno.land/std@0.86.0/fmt/colors.ts is cached
+Checking https://deno.land/std@0.86.0/fs/exists.ts
+ok. https://deno.land/std@0.86.0/fs/exists.ts is cached
+Checking https://deno.land/std@0.88.0/_util/assert.ts
+ok. https://deno.land/std@0.88.0/_util/assert.ts is cached
+Checking https://deno.land/std@0.88.0/_util/has_own_property.ts
+ok. https://deno.land/std@0.88.0/_util/has_own_property.ts is cached
+Checking https://deno.land/std@0.88.0/_util/os.ts
+ok. https://deno.land/std@0.88.0/_util/os.ts is cached
+Checking https://deno.land/std@0.88.0/async/deferred.ts
+ok. https://deno.land/std@0.88.0/async/deferred.ts is cached
+Checking https://deno.land/std@0.88.0/async/delay.ts
+ok. https://deno.land/std@0.88.0/async/delay.ts is cached
+Checking https://deno.land/std@0.88.0/async/mod.ts
+ok. https://deno.land/std@0.88.0/async/mod.ts is cached
+Checking https://deno.land/std@0.88.0/async/mux_async_iterator.ts
+ok. https://deno.land/std@0.88.0/async/mux_async_iterator.ts is cached
+Checking https://deno.land/std@0.88.0/async/pool.ts
+ok. https://deno.land/std@0.88.0/async/pool.ts is cached
+Checking https://deno.land/std@0.88.0/bytes/mod.ts
+ok. https://deno.land/std@0.88.0/bytes/mod.ts is cached
+Checking https://deno.land/std@0.88.0/datetime/formatter.ts
+ok. https://deno.land/std@0.88.0/datetime/formatter.ts is cached
+Checking https://deno.land/std@0.88.0/datetime/mod.ts
+ok. https://deno.land/std@0.88.0/datetime/mod.ts is cached
+Checking https://deno.land/std@0.88.0/datetime/tokenizer.ts
+ok. https://deno.land/std@0.88.0/datetime/tokenizer.ts is cached
+Checking https://deno.land/std@0.88.0/fmt/colors.ts
+ok. https://deno.land/std@0.88.0/fmt/colors.ts is cached
+Checking https://deno.land/std@0.88.0/fs/_util.ts
+ok. https://deno.land/std@0.88.0/fs/_util.ts is cached
+Checking https://deno.land/std@0.88.0/fs/copy.ts
+Error: https://deno.land/std@0.88.0/fs/copy.ts is not cached
+Checking https://deno.land/std@0.88.0/fs/empty_dir.ts
+ok. https://deno.land/std@0.88.0/fs/empty_dir.ts is cached
+Checking https://deno.land/std@0.88.0/fs/ensure_dir.ts
+ok. https://deno.land/std@0.88.0/fs/ensure_dir.ts is cached
+Checking https://deno.land/std@0.88.0/fs/ensure_file.ts
+ok. https://deno.land/std@0.88.0/fs/ensure_file.ts is cached
+Checking https://deno.land/std@0.88.0/fs/ensure_link.ts
+ok. https://deno.land/std@0.88.0/fs/ensure_link.ts is cached
+Checking https://deno.land/std@0.88.0/fs/ensure_symlink.ts
+ok. https://deno.land/std@0.88.0/fs/ensure_symlink.ts is cached
+Checking https://deno.land/std@0.88.0/fs/eol.ts
+ok. https://deno.land/std@0.88.0/fs/eol.ts is cached
+Checking https://deno.land/std@0.88.0/fs/exists.ts
+ok. https://deno.land/std@0.88.0/fs/exists.ts is cached
+Checking https://deno.land/std@0.88.0/fs/expand_glob.ts
+ok. https://deno.land/std@0.88.0/fs/expand_glob.ts is cached
+Checking https://deno.land/std@0.88.0/fs/mod.ts
+Error: https://deno.land/std@0.88.0/fs/mod.ts is not cached
+Checking https://deno.land/std@0.88.0/fs/move.ts
+ok. https://deno.land/std@0.88.0/fs/move.ts is cached
+Checking https://deno.land/std@0.88.0/fs/walk.ts
+ok. https://deno.land/std@0.88.0/fs/walk.ts is cached
+Checking https://deno.land/std@0.88.0/hash/sha1.ts
+ok. https://deno.land/std@0.88.0/hash/sha1.ts is cached
+Checking https://deno.land/std@0.88.0/http/_io.ts
+ok. https://deno.land/std@0.88.0/http/_io.ts is cached
+Checking https://deno.land/std@0.88.0/http/http_status.ts
+ok. https://deno.land/std@0.88.0/http/http_status.ts is cached
+Checking https://deno.land/std@0.88.0/http/server.ts
+ok. https://deno.land/std@0.88.0/http/server.ts is cached
+Checking https://deno.land/std@0.88.0/io/bufio.ts
+ok. https://deno.land/std@0.88.0/io/bufio.ts is cached
+Checking https://deno.land/std@0.88.0/io/ioutil.ts
+ok. https://deno.land/std@0.88.0/io/ioutil.ts is cached
+Checking https://deno.land/std@0.88.0/path/_constants.ts
+ok. https://deno.land/std@0.88.0/path/_constants.ts is cached
+Checking https://deno.land/std@0.88.0/path/_interface.ts
+ok. https://deno.land/std@0.88.0/path/_interface.ts is cached
+Checking https://deno.land/std@0.88.0/path/_util.ts
+ok. https://deno.land/std@0.88.0/path/_util.ts is cached
+Checking https://deno.land/std@0.88.0/path/common.ts
+ok. https://deno.land/std@0.88.0/path/common.ts is cached
+Checking https://deno.land/std@0.88.0/path/glob.ts
+ok. https://deno.land/std@0.88.0/path/glob.ts is cached
+Checking https://deno.land/std@0.88.0/path/mod.ts
+ok. https://deno.land/std@0.88.0/path/mod.ts is cached
+Checking https://deno.land/std@0.88.0/path/posix.ts
+ok. https://deno.land/std@0.88.0/path/posix.ts is cached
+Checking https://deno.land/std@0.88.0/path/separator.ts
+ok. https://deno.land/std@0.88.0/path/separator.ts is cached
+Checking https://deno.land/std@0.88.0/path/win32.ts
+ok. https://deno.land/std@0.88.0/path/win32.ts is cached
+Checking https://deno.land/std@0.88.0/textproto/mod.ts
+ok. https://deno.land/std@0.88.0/textproto/mod.ts is cached
+Checking https://deno.land/std@0.88.0/ws/mod.ts
+ok. https://deno.land/std@0.88.0/ws/mod.ts is cached
+Checking https://deno.land/x/brotli@v0.1.4/mod.ts
+ok. https://deno.land/x/brotli@v0.1.4/mod.ts is cached
+Checking https://deno.land/x/brotli@v0.1.4/wasm.js
+ok. https://deno.land/x/brotli@v0.1.4/wasm.js is cached
+Checking https://deno.land/x/cliffy@v0.17.2/command/_errors.ts
+ok. https://deno.land/x/cliffy@v0.17.2/command/_errors.ts is cached
+Checking https://deno.land/x/cliffy@v0.17.2/command/_utils.ts
+ok. https://deno.land/x/cliffy@v0.17.2/command/_utils.ts is cached
+Checking https://deno.land/x/cliffy@v0.17.2/command/command.ts
+ok. https://deno.land/x/cliffy@v0.17.2/command/command.ts is cached
+Checking https://deno.land/x/cliffy@v0.17.2/command/completions/_bash_completions_generator.ts
+ok. https://deno.land/x/cliffy@v0.17.2/command/completions/_bash_completions_generator.ts is cached
+Checking https://deno.land/x/cliffy@v0.17.2/command/completions/_fish_completions_generator.ts
+ok. https://deno.land/x/cliffy@v0.17.2/command/completions/_fish_completions_generator.ts is cached
+Checking https://deno.land/x/cliffy@v0.17.2/command/completions/_zsh_completions_generator.ts
+ok. https://deno.land/x/cliffy@v0.17.2/command/completions/_zsh_completions_generator.ts is cached
+Checking https://deno.land/x/cliffy@v0.17.2/command/completions/bash.ts
+ok. https://deno.land/x/cliffy@v0.17.2/command/completions/bash.ts is cached
+Checking https://deno.land/x/cliffy@v0.17.2/command/completions/complete.ts
+ok. https://deno.land/x/cliffy@v0.17.2/command/completions/complete.ts is cached
+Checking https://deno.land/x/cliffy@v0.17.2/command/completions/fish.ts
+ok. https://deno.land/x/cliffy@v0.17.2/command/completions/fish.ts is cached
+Checking https://deno.land/x/cliffy@v0.17.2/command/completions/mod.ts
+ok. https://deno.land/x/cliffy@v0.17.2/command/completions/mod.ts is cached
+Checking https://deno.land/x/cliffy@v0.17.2/command/completions/zsh.ts
+ok. https://deno.land/x/cliffy@v0.17.2/command/completions/zsh.ts is cached
+Checking https://deno.land/x/cliffy@v0.17.2/command/deps.ts
+ok. https://deno.land/x/cliffy@v0.17.2/command/deps.ts is cached
+Checking https://deno.land/x/cliffy@v0.17.2/command/help/_help_generator.ts
+ok. https://deno.land/x/cliffy@v0.17.2/command/help/_help_generator.ts is cached
+Checking https://deno.land/x/cliffy@v0.17.2/command/help/mod.ts
+ok. https://deno.land/x/cliffy@v0.17.2/command/help/mod.ts is cached
+Checking https://deno.land/x/cliffy@v0.17.2/command/mod.ts
+ok. https://deno.land/x/cliffy@v0.17.2/command/mod.ts is cached
+Checking https://deno.land/x/cliffy@v0.17.2/command/type.ts
+ok. https://deno.land/x/cliffy@v0.17.2/command/type.ts is cached
+Checking https://deno.land/x/cliffy@v0.17.2/command/types.ts
+ok. https://deno.land/x/cliffy@v0.17.2/command/types.ts is cached
+Checking https://deno.land/x/cliffy@v0.17.2/command/types/action_list.ts
+ok. https://deno.land/x/cliffy@v0.17.2/command/types/action_list.ts is cached
+Checking https://deno.land/x/cliffy@v0.17.2/command/types/boolean.ts
+ok. https://deno.land/x/cliffy@v0.17.2/command/types/boolean.ts is cached
+Checking https://deno.land/x/cliffy@v0.17.2/command/types/child_command.ts
+ok. https://deno.land/x/cliffy@v0.17.2/command/types/child_command.ts is cached
+Checking https://deno.land/x/cliffy@v0.17.2/command/types/command.ts
+ok. https://deno.land/x/cliffy@v0.17.2/command/types/command.ts is cached
+Checking https://deno.land/x/cliffy@v0.17.2/command/types/number.ts
+ok. https://deno.land/x/cliffy@v0.17.2/command/types/number.ts is cached
+Checking https://deno.land/x/cliffy@v0.17.2/command/types/string.ts
+ok. https://deno.land/x/cliffy@v0.17.2/command/types/string.ts is cached
+Checking https://deno.land/x/cliffy@v0.17.2/flags/_errors.ts
+ok. https://deno.land/x/cliffy@v0.17.2/flags/_errors.ts is cached
+Checking https://deno.land/x/cliffy@v0.17.2/flags/_utils.ts
+ok. https://deno.land/x/cliffy@v0.17.2/flags/_utils.ts is cached
+Checking https://deno.land/x/cliffy@v0.17.2/flags/flags.ts
+ok. https://deno.land/x/cliffy@v0.17.2/flags/flags.ts is cached
+Checking https://deno.land/x/cliffy@v0.17.2/flags/normalize.ts
+ok. https://deno.land/x/cliffy@v0.17.2/flags/normalize.ts is cached
+Checking https://deno.land/x/cliffy@v0.17.2/flags/types.ts
+ok. https://deno.land/x/cliffy@v0.17.2/flags/types.ts is cached
+Checking https://deno.land/x/cliffy@v0.17.2/flags/types/boolean.ts
+ok. https://deno.land/x/cliffy@v0.17.2/flags/types/boolean.ts is cached
+Checking https://deno.land/x/cliffy@v0.17.2/flags/types/number.ts
+ok. https://deno.land/x/cliffy@v0.17.2/flags/types/number.ts is cached
+Checking https://deno.land/x/cliffy@v0.17.2/flags/types/string.ts
+ok. https://deno.land/x/cliffy@v0.17.2/flags/types/string.ts is cached
+Checking https://deno.land/x/cliffy@v0.17.2/flags/validate_flags.ts
+ok. https://deno.land/x/cliffy@v0.17.2/flags/validate_flags.ts is cached
+Checking https://deno.land/x/cliffy@v0.17.2/table/border.ts
+ok. https://deno.land/x/cliffy@v0.17.2/table/border.ts is cached
+Checking https://deno.land/x/cliffy@v0.17.2/table/cell.ts
+ok. https://deno.land/x/cliffy@v0.17.2/table/cell.ts is cached
+Checking https://deno.land/x/cliffy@v0.17.2/table/deps.ts
+ok. https://deno.land/x/cliffy@v0.17.2/table/deps.ts is cached
+Checking https://deno.land/x/cliffy@v0.17.2/table/layout.ts
+ok. https://deno.land/x/cliffy@v0.17.2/table/layout.ts is cached
+Checking https://deno.land/x/cliffy@v0.17.2/table/mod.ts
+ok. https://deno.land/x/cliffy@v0.17.2/table/mod.ts is cached
+Checking https://deno.land/x/cliffy@v0.17.2/table/row.ts
+ok. https://deno.land/x/cliffy@v0.17.2/table/row.ts is cached
+Checking https://deno.land/x/cliffy@v0.17.2/table/table.ts
+ok. https://deno.land/x/cliffy@v0.17.2/table/table.ts is cached
+Checking https://deno.land/x/cliffy@v0.17.2/table/utils.ts
+ok. https://deno.land/x/cliffy@v0.17.2/table/utils.ts is cached
+Checking https://deno.land/x/dext@0.10.5/cli.ts
+Error: https://deno.land/x/dext@0.10.5/cli.ts is not cached
+Check file:///Users/kt3k/oss/deno-snippets/is_cached.ts
+Error: https://deno.land/x/dext@0.10.5/deps/mod.ts is not cached
+Check file:///Users/kt3k/oss/deno-snippets/is_cached.ts
+Checking https://deno.land/x/dext@0.10.5/src/bundle.ts
+Error: https://deno.land/x/dext@0.10.5/src/bundle.ts is not cached
+Checking https://deno.land/x/dext@0.10.5/src/dependency_graph.ts
+ok. https://deno.land/x/dext@0.10.5/src/dependency_graph.ts is cached
+Checking https://deno.land/x/dext@0.10.5/src/export.ts
+Error: https://deno.land/x/dext@0.10.5/src/export.ts is not cached
+Checking https://deno.land/x/dext@0.10.5/src/plugins/dext.ts
+Error: https://deno.land/x/dext@0.10.5/src/plugins/dext.ts is not cached
+Checking https://deno.land/x/dext@0.10.5/src/serve.ts
+Error: https://deno.land/x/dext@0.10.5/src/serve.ts is not cached
+Checking https://deno.land/x/dext@0.10.5/src/type.ts
+ok. https://deno.land/x/dext@0.10.5/src/type.ts is cached
+Checking https://deno.land/x/dext@0.10.5/src/util.ts
+Error: https://deno.land/x/dext@0.10.5/src/util.ts is not cached
+Checking https://deno.land/x/lz4@v0.1.2/mod.ts
+ok. https://deno.land/x/lz4@v0.1.2/mod.ts is cached
+Checking https://deno.land/x/lz4@v0.1.2/wasm.js
+ok. https://deno.land/x/lz4@v0.1.2/wasm.js is cached
+Checking https://deno.land/x/media_types@v2.4.7/db.ts
+ok. https://deno.land/x/media_types@v2.4.7/db.ts is cached
+Checking https://deno.land/x/media_types@v2.4.7/deps.ts
+ok. https://deno.land/x/media_types@v2.4.7/deps.ts is cached
+Checking https://deno.land/x/media_types@v2.4.7/mod.ts
+ok. https://deno.land/x/media_types@v2.4.7/mod.ts is cached
+Checking https://deno.land/x/media_types@v2.7.1/db.ts
+ok. https://deno.land/x/media_types@v2.7.1/db.ts is cached
+Checking https://deno.land/x/media_types@v2.7.1/deps.ts
+ok. https://deno.land/x/media_types@v2.7.1/deps.ts is cached
+Checking https://deno.land/x/media_types@v2.7.1/mod.ts
+ok. https://deno.land/x/media_types@v2.7.1/mod.ts is cached
+Checking https://deno.land/x/oak@v6.5.0/application.ts
+ok. https://deno.land/x/oak@v6.5.0/application.ts is cached
+Checking https://deno.land/x/oak@v6.5.0/async_iterable_reader.ts
+ok. https://deno.land/x/oak@v6.5.0/async_iterable_reader.ts is cached
+Checking https://deno.land/x/oak@v6.5.0/body.ts
+ok. https://deno.land/x/oak@v6.5.0/body.ts is cached
+Checking https://deno.land/x/oak@v6.5.0/buf_reader.ts
+ok. https://deno.land/x/oak@v6.5.0/buf_reader.ts is cached
+Checking https://deno.land/x/oak@v6.5.0/content_disposition.ts
+ok. https://deno.land/x/oak@v6.5.0/content_disposition.ts is cached
+Checking https://deno.land/x/oak@v6.5.0/context.ts
+ok. https://deno.land/x/oak@v6.5.0/context.ts is cached
+Checking https://deno.land/x/oak@v6.5.0/cookies.ts
+ok. https://deno.land/x/oak@v6.5.0/cookies.ts is cached
+Checking https://deno.land/x/oak@v6.5.0/deps.ts
+ok. https://deno.land/x/oak@v6.5.0/deps.ts is cached
+Checking https://deno.land/x/oak@v6.5.0/headers.ts
+ok. https://deno.land/x/oak@v6.5.0/headers.ts is cached
+Checking https://deno.land/x/oak@v6.5.0/helpers.ts
+ok. https://deno.land/x/oak@v6.5.0/helpers.ts is cached
+Checking https://deno.land/x/oak@v6.5.0/httpError.ts
+ok. https://deno.land/x/oak@v6.5.0/httpError.ts is cached
+Checking https://deno.land/x/oak@v6.5.0/isMediaType.ts
+ok. https://deno.land/x/oak@v6.5.0/isMediaType.ts is cached
+Checking https://deno.land/x/oak@v6.5.0/keyStack.ts
+ok. https://deno.land/x/oak@v6.5.0/keyStack.ts is cached
+Checking https://deno.land/x/oak@v6.5.0/mediaTyper.ts
+ok. https://deno.land/x/oak@v6.5.0/mediaTyper.ts is cached
+Checking https://deno.land/x/oak@v6.5.0/middleware.ts
+ok. https://deno.land/x/oak@v6.5.0/middleware.ts is cached
+Checking https://deno.land/x/oak@v6.5.0/mod.ts
+ok. https://deno.land/x/oak@v6.5.0/mod.ts is cached
+Checking https://deno.land/x/oak@v6.5.0/multipart.ts
+ok. https://deno.land/x/oak@v6.5.0/multipart.ts is cached
+Checking https://deno.land/x/oak@v6.5.0/negotiation/charset.ts
+ok. https://deno.land/x/oak@v6.5.0/negotiation/charset.ts is cached
+Checking https://deno.land/x/oak@v6.5.0/negotiation/common.ts
+ok. https://deno.land/x/oak@v6.5.0/negotiation/common.ts is cached
+Checking https://deno.land/x/oak@v6.5.0/negotiation/encoding.ts
+ok. https://deno.land/x/oak@v6.5.0/negotiation/encoding.ts is cached
+Checking https://deno.land/x/oak@v6.5.0/negotiation/language.ts
+ok. https://deno.land/x/oak@v6.5.0/negotiation/language.ts is cached
+Checking https://deno.land/x/oak@v6.5.0/negotiation/mediaType.ts
+ok. https://deno.land/x/oak@v6.5.0/negotiation/mediaType.ts is cached
+Checking https://deno.land/x/oak@v6.5.0/request.ts
+ok. https://deno.land/x/oak@v6.5.0/request.ts is cached
+Checking https://deno.land/x/oak@v6.5.0/response.ts
+ok. https://deno.land/x/oak@v6.5.0/response.ts is cached
+Checking https://deno.land/x/oak@v6.5.0/router.ts
+ok. https://deno.land/x/oak@v6.5.0/router.ts is cached
+Checking https://deno.land/x/oak@v6.5.0/send.ts
+ok. https://deno.land/x/oak@v6.5.0/send.ts is cached
+Checking https://deno.land/x/oak@v6.5.0/server_sent_event.ts
+ok. https://deno.land/x/oak@v6.5.0/server_sent_event.ts is cached
+Checking https://deno.land/x/oak@v6.5.0/tssCompare.ts
+ok. https://deno.land/x/oak@v6.5.0/tssCompare.ts is cached
+Checking https://deno.land/x/oak@v6.5.0/types.d.ts
+ok. https://deno.land/x/oak@v6.5.0/types.d.ts is cached
+Checking https://deno.land/x/oak@v6.5.0/util.ts
+ok. https://deno.land/x/oak@v6.5.0/util.ts is cached
+Checking https://deno.land/x/path_to_regexp@v6.2.0/index.ts
+ok. https://deno.land/x/path_to_regexp@v6.2.0/index.ts is cached
+Checking https://deno.land/x/wasm_gzip@v1.0.0/bytes.js
+ok. https://deno.land/x/wasm_gzip@v1.0.0/bytes.js is cached
+Checking https://deno.land/x/wasm_gzip@v1.0.0/mod.ts
+ok. https://deno.land/x/wasm_gzip@v1.0.0/mod.ts is cached
+Checking https://deno.land/x/wasm_gzip@v1.0.0/wasm.js
+ok. https://deno.land/x/wasm_gzip@v1.0.0/wasm.js is cached
+Checking https://raw.githubusercontent.com/BrunnerLivio/deno-pretty-bytes/db6d9ede681f666f5b6f58aa35ba5b638c820f84/prettyBytes.ts
+ok. https://raw.githubusercontent.com/BrunnerLivio/deno-pretty-bytes/db6d9ede681f666f5b6f58aa35ba5b638c820f84/prettyBytes.ts is cached
+Checking https://raw.githubusercontent.com/denofn/denopack/8bae39bef47e532a1e8d0f6700b72a2192f7bca4/cli/emitFiles.ts
+Error: https://raw.githubusercontent.com/denofn/denopack/8bae39bef47e532a1e8d0f6700b72a2192f7bca4/cli/emitFiles.ts is not cached
+Checking https://raw.githubusercontent.com/denofn/denopack/8bae39bef47e532a1e8d0f6700b72a2192f7bca4/cli/persistSourceMaps.ts
+Error: https://raw.githubusercontent.com/denofn/denopack/8bae39bef47e532a1e8d0f6700b72a2192f7bca4/cli/persistSourceMaps.ts is not cached
+Checking https://raw.githubusercontent.com/denofn/denopack/8bae39bef47e532a1e8d0f6700b72a2192f7bca4/deps.ts
+Error: https://raw.githubusercontent.com/denofn/denopack/8bae39bef47e532a1e8d0f6700b72a2192f7bca4/deps.ts is not cached
+Checking https://raw.githubusercontent.com/denofn/denopack/8bae39bef47e532a1e8d0f6700b72a2192f7bca4/plugin/cacheLoader/mod.ts
+Error: https://raw.githubusercontent.com/denofn/denopack/8bae39bef47e532a1e8d0f6700b72a2192f7bca4/plugin/cacheLoader/mod.ts is not cached
+Checking https://raw.githubusercontent.com/denofn/denopack/8bae39bef47e532a1e8d0f6700b72a2192f7bca4/plugin/chainResolver/mod.ts
+Error: https://raw.githubusercontent.com/denofn/denopack/8bae39bef47e532a1e8d0f6700b72a2192f7bca4/plugin/chainResolver/mod.ts is not cached
+Checking https://raw.githubusercontent.com/denofn/denopack/8bae39bef47e532a1e8d0f6700b72a2192f7bca4/plugin/cssBundle/mod.ts
+Error: https://raw.githubusercontent.com/denofn/denopack/8bae39bef47e532a1e8d0f6700b72a2192f7bca4/plugin/cssBundle/mod.ts is not cached
+Checking https://raw.githubusercontent.com/denofn/denopack/8bae39bef47e532a1e8d0f6700b72a2192f7bca4/plugin/deps.ts
+Error: https://raw.githubusercontent.com/denofn/denopack/8bae39bef47e532a1e8d0f6700b72a2192f7bca4/plugin/deps.ts is not cached
+Checking https://raw.githubusercontent.com/denofn/denopack/8bae39bef47e532a1e8d0f6700b72a2192f7bca4/plugin/fileLoader/mod.ts
+Error: https://raw.githubusercontent.com/denofn/denopack/8bae39bef47e532a1e8d0f6700b72a2192f7bca4/plugin/fileLoader/mod.ts is not cached
+Checking https://raw.githubusercontent.com/denofn/denopack/8bae39bef47e532a1e8d0f6700b72a2192f7bca4/plugin/hooks.ts
+Error: https://raw.githubusercontent.com/denofn/denopack/8bae39bef47e532a1e8d0f6700b72a2192f7bca4/plugin/hooks.ts is not cached
+Checking https://raw.githubusercontent.com/denofn/denopack/8bae39bef47e532a1e8d0f6700b72a2192f7bca4/plugin/htmlBundle/mod.ts
+Error: https://raw.githubusercontent.com/denofn/denopack/8bae39bef47e532a1e8d0f6700b72a2192f7bca4/plugin/htmlBundle/mod.ts is not cached
+Checking https://raw.githubusercontent.com/denofn/denopack/8bae39bef47e532a1e8d0f6700b72a2192f7bca4/plugin/importResolver/mod.ts
+Error: https://raw.githubusercontent.com/denofn/denopack/8bae39bef47e532a1e8d0f6700b72a2192f7bca4/plugin/importResolver/mod.ts is not cached
+Checking https://raw.githubusercontent.com/denofn/denopack/8bae39bef47e532a1e8d0f6700b72a2192f7bca4/plugin/mod.ts
+Error: https://raw.githubusercontent.com/denofn/denopack/8bae39bef47e532a1e8d0f6700b72a2192f7bca4/plugin/mod.ts is not cached
+Checking https://raw.githubusercontent.com/denofn/denopack/8bae39bef47e532a1e8d0f6700b72a2192f7bca4/plugin/rootResolver/mod.ts
+Error: https://raw.githubusercontent.com/denofn/denopack/8bae39bef47e532a1e8d0f6700b72a2192f7bca4/plugin/rootResolver/mod.ts is not cached
+Checking https://raw.githubusercontent.com/denofn/denopack/8bae39bef47e532a1e8d0f6700b72a2192f7bca4/plugin/serve/deps.ts
+ok. https://raw.githubusercontent.com/denofn/denopack/8bae39bef47e532a1e8d0f6700b72a2192f7bca4/plugin/serve/deps.ts is cached
+Checking https://raw.githubusercontent.com/denofn/denopack/8bae39bef47e532a1e8d0f6700b72a2192f7bca4/plugin/serve/mod.ts
+Error: https://raw.githubusercontent.com/denofn/denopack/8bae39bef47e532a1e8d0f6700b72a2192f7bca4/plugin/serve/mod.ts is not cached
+Checking https://raw.githubusercontent.com/denofn/denopack/8bae39bef47e532a1e8d0f6700b72a2192f7bca4/plugin/serve/options.ts
+ok. https://raw.githubusercontent.com/denofn/denopack/8bae39bef47e532a1e8d0f6700b72a2192f7bca4/plugin/serve/options.ts is cached
+Checking https://raw.githubusercontent.com/denofn/denopack/8bae39bef47e532a1e8d0f6700b72a2192f7bca4/plugin/serve/server.ts
+Error: https://raw.githubusercontent.com/denofn/denopack/8bae39bef47e532a1e8d0f6700b72a2192f7bca4/plugin/serve/server.ts is not cached
+Checking https://raw.githubusercontent.com/denofn/denopack/8bae39bef47e532a1e8d0f6700b72a2192f7bca4/plugin/terserTransform/deps.ts
+ok. https://raw.githubusercontent.com/denofn/denopack/8bae39bef47e532a1e8d0f6700b72a2192f7bca4/plugin/terserTransform/deps.ts is cached
+Checking https://raw.githubusercontent.com/denofn/denopack/8bae39bef47e532a1e8d0f6700b72a2192f7bca4/plugin/terserTransform/mod.ts
+Error: https://raw.githubusercontent.com/denofn/denopack/8bae39bef47e532a1e8d0f6700b72a2192f7bca4/plugin/terserTransform/mod.ts is not cached
+Checking https://raw.githubusercontent.com/denofn/denopack/8bae39bef47e532a1e8d0f6700b72a2192f7bca4/plugin/typescriptCompile/mod.ts
+Error: https://raw.githubusercontent.com/denofn/denopack/8bae39bef47e532a1e8d0f6700b72a2192f7bca4/plugin/typescriptCompile/mod.ts is not cached
+Checking https://raw.githubusercontent.com/denofn/denopack/8bae39bef47e532a1e8d0f6700b72a2192f7bca4/plugin/typescriptTransform/mod.ts
+Error: https://raw.githubusercontent.com/denofn/denopack/8bae39bef47e532a1e8d0f6700b72a2192f7bca4/plugin/typescriptTransform/mod.ts is not cached
+Checking https://raw.githubusercontent.com/denofn/denopack/8bae39bef47e532a1e8d0f6700b72a2192f7bca4/util/buildCacheUrl.ts
+Error: https://raw.githubusercontent.com/denofn/denopack/8bae39bef47e532a1e8d0f6700b72a2192f7bca4/util/buildCacheUrl.ts is not cached
+Checking https://raw.githubusercontent.com/denofn/denopack/8bae39bef47e532a1e8d0f6700b72a2192f7bca4/util/checkIntegrity.ts
+Error: https://raw.githubusercontent.com/denofn/denopack/8bae39bef47e532a1e8d0f6700b72a2192f7bca4/util/checkIntegrity.ts is not cached
+Checking https://raw.githubusercontent.com/denofn/denopack/8bae39bef47e532a1e8d0f6700b72a2192f7bca4/util/htmlTemplate.ts
+Error: https://raw.githubusercontent.com/denofn/denopack/8bae39bef47e532a1e8d0f6700b72a2192f7bca4/util/htmlTemplate.ts is not cached
+Checking https://raw.githubusercontent.com/denofn/denopack/8bae39bef47e532a1e8d0f6700b72a2192f7bca4/util/isFile.ts
+ok. https://raw.githubusercontent.com/denofn/denopack/8bae39bef47e532a1e8d0f6700b72a2192f7bca4/util/isFile.ts is cached
+Checking https://raw.githubusercontent.com/denofn/denopack/8bae39bef47e532a1e8d0f6700b72a2192f7bca4/util/isFileUrl.ts
+ok. https://raw.githubusercontent.com/denofn/denopack/8bae39bef47e532a1e8d0f6700b72a2192f7bca4/util/isFileUrl.ts is cached
+Checking https://raw.githubusercontent.com/denofn/denopack/8bae39bef47e532a1e8d0f6700b72a2192f7bca4/util/isHttpUrl.ts
+ok. https://raw.githubusercontent.com/denofn/denopack/8bae39bef47e532a1e8d0f6700b72a2192f7bca4/util/isHttpUrl.ts is cached
+Checking https://raw.githubusercontent.com/denofn/denopack/8bae39bef47e532a1e8d0f6700b72a2192f7bca4/util/isOutputAsset.ts
+Error: https://raw.githubusercontent.com/denofn/denopack/8bae39bef47e532a1e8d0f6700b72a2192f7bca4/util/isOutputAsset.ts is not cached
+Checking https://raw.githubusercontent.com/denofn/denopack/8bae39bef47e532a1e8d0f6700b72a2192f7bca4/util/makeHtmlAttributes.ts
+ok. https://raw.githubusercontent.com/denofn/denopack/8bae39bef47e532a1e8d0f6700b72a2192f7bca4/util/makeHtmlAttributes.ts is cached
+Checking https://raw.githubusercontent.com/denofn/denopack/8bae39bef47e532a1e8d0f6700b72a2192f7bca4/util/mutex.ts
+ok. https://raw.githubusercontent.com/denofn/denopack/8bae39bef47e532a1e8d0f6700b72a2192f7bca4/util/mutex.ts is cached
+Checking https://raw.githubusercontent.com/denofn/denopack/8bae39bef47e532a1e8d0f6700b72a2192f7bca4/util/resolveCacheLocation.ts
+Error: https://raw.githubusercontent.com/denofn/denopack/8bae39bef47e532a1e8d0f6700b72a2192f7bca4/util/resolveCacheLocation.ts is not cached
+Checking https://raw.githubusercontent.com/denofn/denopack/8bae39bef47e532a1e8d0f6700b72a2192f7bca4/util/resolver.ts
+Error: https://raw.githubusercontent.com/denofn/denopack/8bae39bef47e532a1e8d0f6700b72a2192f7bca4/util/resolver.ts is not cached
+Checking https://raw.githubusercontent.com/denofn/denopack/8bae39bef47e532a1e8d0f6700b72a2192f7bca4/util/stripFileProtocol.ts
+ok. https://raw.githubusercontent.com/denofn/denopack/8bae39bef47e532a1e8d0f6700b72a2192f7bca4/util/stripFileProtocol.ts is cached
+Checking https://raw.githubusercontent.com/denofn/denopack/8bae39bef47e532a1e8d0f6700b72a2192f7bca4/util/usesProtocol.ts
+ok. https://raw.githubusercontent.com/denofn/denopack/8bae39bef47e532a1e8d0f6700b72a2192f7bca4/util/usesProtocol.ts is cached
+Checking https://raw.githubusercontent.com/denofn/denopack/8bae39bef47e532a1e8d0f6700b72a2192f7bca4/vendor/terser@5.3.1/source-map.d.ts
+ok. https://raw.githubusercontent.com/denofn/denopack/8bae39bef47e532a1e8d0f6700b72a2192f7bca4/vendor/terser@5.3.1/source-map.d.ts is cached
+Checking https://raw.githubusercontent.com/denofn/denopack/8bae39bef47e532a1e8d0f6700b72a2192f7bca4/vendor/terser@5.3.1/terser.d.ts
+ok. https://raw.githubusercontent.com/denofn/denopack/8bae39bef47e532a1e8d0f6700b72a2192f7bca4/vendor/terser@5.3.1/terser.d.ts is cached
+Checking https://raw.githubusercontent.com/denofn/denopack/8bae39bef47e532a1e8d0f6700b72a2192f7bca4/vendor/terser@5.3.1/terser.ts
+ok. https://raw.githubusercontent.com/denofn/denopack/8bae39bef47e532a1e8d0f6700b72a2192f7bca4/vendor/terser@5.3.1/terser.ts is cached
+Checking https://unpkg.com/cac@6.6.1/mod.d.ts
+ok. https://unpkg.com/cac@6.6.1/mod.d.ts is cached
+Checking https://unpkg.com/cac@6.6.1/mod.js
+ok. https://unpkg.com/cac@6.6.1/mod.js is cached
+Checking https://unpkg.com/lodash-es@4.17.15/_Symbol.js
+ok. https://unpkg.com/lodash-es@4.17.15/_Symbol.js is cached
+Checking https://unpkg.com/lodash-es@4.17.15/_baseGetTag.js
+ok. https://unpkg.com/lodash-es@4.17.15/_baseGetTag.js is cached
+Checking https://unpkg.com/lodash-es@4.17.15/_freeGlobal.js
+ok. https://unpkg.com/lodash-es@4.17.15/_freeGlobal.js is cached
+Checking https://unpkg.com/lodash-es@4.17.15/_getRawTag.js
+ok. https://unpkg.com/lodash-es@4.17.15/_getRawTag.js is cached
+Checking https://unpkg.com/lodash-es@4.17.15/_objectToString.js
+ok. https://unpkg.com/lodash-es@4.17.15/_objectToString.js is cached
+Checking https://unpkg.com/lodash-es@4.17.15/_root.js
+ok. https://unpkg.com/lodash-es@4.17.15/_root.js is cached
+Checking https://unpkg.com/lodash-es@4.17.15/debounce.js
+ok. https://unpkg.com/lodash-es@4.17.15/debounce.js is cached
+Checking https://unpkg.com/lodash-es@4.17.15/isObject.js
+ok. https://unpkg.com/lodash-es@4.17.15/isObject.js is cached
+Checking https://unpkg.com/lodash-es@4.17.15/isObjectLike.js
+ok. https://unpkg.com/lodash-es@4.17.15/isObjectLike.js is cached
+Checking https://unpkg.com/lodash-es@4.17.15/isSymbol.js
+ok. https://unpkg.com/lodash-es@4.17.15/isSymbol.js is cached
+Checking https://unpkg.com/lodash-es@4.17.15/now.js
+ok. https://unpkg.com/lodash-es@4.17.15/now.js is cached
+Checking https://unpkg.com/lodash-es@4.17.15/toNumber.js
+ok. https://unpkg.com/lodash-es@4.17.15/toNumber.js is cached
+Checking https://unpkg.com/lodash-es@4.17.20/_Symbol.js
+ok. https://unpkg.com/lodash-es@4.17.20/_Symbol.js is cached
+Checking https://unpkg.com/lodash-es@4.17.20/_baseGetTag.js
+ok. https://unpkg.com/lodash-es@4.17.20/_baseGetTag.js is cached
+Checking https://unpkg.com/lodash-es@4.17.20/_freeGlobal.js
+ok. https://unpkg.com/lodash-es@4.17.20/_freeGlobal.js is cached
+Checking https://unpkg.com/lodash-es@4.17.20/_getRawTag.js
+ok. https://unpkg.com/lodash-es@4.17.20/_getRawTag.js is cached
+Checking https://unpkg.com/lodash-es@4.17.20/_objectToString.js
+ok. https://unpkg.com/lodash-es@4.17.20/_objectToString.js is cached
+Checking https://unpkg.com/lodash-es@4.17.20/_root.js
+ok. https://unpkg.com/lodash-es@4.17.20/_root.js is cached
+Checking https://unpkg.com/lodash-es@4.17.20/debounce.js
+ok. https://unpkg.com/lodash-es@4.17.20/debounce.js is cached
+Checking https://unpkg.com/lodash-es@4.17.20/isObject.js
+ok. https://unpkg.com/lodash-es@4.17.20/isObject.js is cached
+Checking https://unpkg.com/lodash-es@4.17.20/isObjectLike.js
+ok. https://unpkg.com/lodash-es@4.17.20/isObjectLike.js is cached
+Checking https://unpkg.com/lodash-es@4.17.20/isSymbol.js
+ok. https://unpkg.com/lodash-es@4.17.20/isSymbol.js is cached
+Checking https://unpkg.com/lodash-es@4.17.20/now.js
+ok. https://unpkg.com/lodash-es@4.17.20/now.js is cached
+Checking https://unpkg.com/lodash-es@4.17.20/toNumber.js
+ok. https://unpkg.com/lodash-es@4.17.20/toNumber.js is cached
+Checking https://unpkg.com/rollup@2.26.11/dist/es/rollup.browser.js
+ok. https://unpkg.com/rollup@2.26.11/dist/es/rollup.browser.js is cached
+Checking https://unpkg.com/rollup@2.26.11/dist/rollup.d.ts
+ok. https://unpkg.com/rollup@2.26.11/dist/rollup.d.ts is cached
+Checking https://unpkg.com/source-map@0.7.3/dist/source-map.js
+ok. https://unpkg.com/source-map@0.7.3/dist/source-map.js is cached
+Checking https://unpkg.com/terser@5.3.1/dist/bundle.min.js
+ok. https://unpkg.com/terser@5.3.1/dist/bundle.min.js is cached
